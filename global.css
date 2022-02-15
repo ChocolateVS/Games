@@ -35,6 +35,8 @@ html, body {
   overflow-y: auto;
   overflow-x: hidden;
   height:95%;
+  align-items:center;
+  justify-content:center;
 }
 
 .game {
@@ -42,8 +44,10 @@ html, body {
 }
 
 .game_img {
-  width: 400px;
-  height: 400px;
+  width: 25vw;
+  height: 25vw;
+  min-width: 300px;
+  min-height: 300px;
 }
 
 .game_header {
